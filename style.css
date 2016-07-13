@@ -1,0 +1,96 @@
+
+#primary_nav_wrap
+{
+  margin-top:15px
+
+}
+
+
+
+#primary_nav_wrap ul
+{
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+.top{
+
+  width: 100%;
+  padding:0px;
+   font-family: Agency FB;
+
+
+}
+
+#primary_nav_wrap ul a
+{
+  display:block;
+  color:white;
+  text-decoration:none;
+  font-weight:700;
+  font-size:20px;
+  line-height:50px;
+  padding:0 25px;
+ 
+}
+
+#primary_nav_wrap ul li
+{
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0
+}
+
+
+
+#primary_nav_wrap ul li:hover
+{
+  background:rgba(0, 0, 0, 0.3);
+}
+
+#primary_nav_wrap ul ul
+{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+
+  padding:0;
+}
+
+#primary_nav_wrap ul ul li
+{
+  float:none;
+  width:100%;
+}
+
+#primary_nav_wrap ul ul a
+{
+  line-height:120%;
+  padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+  top:0;
+  left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+  display:block
+}
+
+body{
+  background: url(back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  height: 100%;
+}
